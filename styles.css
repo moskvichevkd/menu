@@ -1,8 +1,5 @@
 body {
     margin: 0;
-    font-family: 'Catamaran', sans-serif;
-    font-family: 'Caudex', serif;
-    font-family: 'Orbitron', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -83,4 +80,183 @@ body {
 
 .button:hover {
     background-color: #bb5400;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-top: 222px;
+    margin-bottom: 12px;
+}
+
+.header-suptitle {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-suptitle:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #FFFFFF;
+    top: 128px;
+    left: 9px;
+}
+
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #FFFFFF;
+    top: 128px;
+    left: 217px;
+}
+
+.header-button {
+    background-color: #FF7400;
+    padding: 14px 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.2s linear;
+}
+
+.header-button:hover {
+    background-color: #ad5f1e;
+    
+}
+
+
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #FFFFFF;
+    margin-top: -80px;
+    padding: 10px 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 26px;
+}
+
+.card-title span {
+    color: #D67E35;
+}
+
+.card-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 26px;
+    color: #656363;
+}
+
+
+
+.history {
+    margin-top: 166px;
+}
+
+.history-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 26px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.history-title span {
+    color: #D67E35;  
+}
+
+.history-desc {
+    font-size: 16px;
+    color: #656363;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number-item span {
+    display: block;
+    color: #000000;
+}
+
+.history-images {
+    position: relative;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 0;
+    top: 356px;
+    left: -142px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 0;
+    top: 109px;
+    left: -295px;
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 999;
+    top: 8px;
+    left: -490px;
 }
